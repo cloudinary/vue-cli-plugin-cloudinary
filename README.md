@@ -25,7 +25,8 @@ vue add cloudinary
 ```
 
 5. Set up your cloudName and pick the components to use (or use all 😃)
-![Set up with cloudName and options](https://res.cloudinary.com/mayashavin/video/upload/v1573054181/vue-cli-plugin-setup.gif)
+
+![Set up with cloudName and options](http://bit.ly/2NOObeP)
 
 6. A `cloudinary.js` file will be added to your `src` directory, same level with your `main.js` file. Feel free to customize it if you like. And have fun with Cloudinary! 🤟
 
