@@ -1,1 +1,2 @@
 /** main UI */
+module.exports = () => {}
