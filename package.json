@@ -4,7 +4,8 @@
   "description": "Vue CLI 3.0 plugin for installing Cloudinary sdk for Vue apps",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --fix"
   },
   "keywords": [
     "cloudinary",
@@ -21,15 +22,21 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "^1.1.0",
     "@vue/cli-service": "^3.11.0",
-    "husky": "^3.0.8",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "eslint": "^5.9.0",
+    "husky": "^1.3.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
   },
   "dependencies": {
     "cloudinary-vue": "1.0.0-beta3"
   },
   "husky": {
     "hooks": {
-        "pre-commit": "yarn test"
+      "pre-commit": "yarn lint"
     }
   },
   "bugs": {
