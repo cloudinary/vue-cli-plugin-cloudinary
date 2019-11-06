@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-cloudinary",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vue CLI 3.0 plugin for installing Cloudinary sdk for Vue apps",
   "main": "index.js",
   "scripts": {
