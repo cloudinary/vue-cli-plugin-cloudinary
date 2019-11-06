@@ -24,6 +24,11 @@ cd <your-app-name>
 vue add cloudinary
 ```
 
+5. Set up your cloudName and pick the components to use (or use all 😃)
+![Set up with cloudName and options](https://res.cloudinary.com/mayashavin/video/upload/v1573054181/Screen_Recording_2019-11-06_at_17.27.49.gif)
+
+6. A `cloudinary.js` file will be added to your `src` directory, same level with your `main.js` file. Feel free to customize it if you like. And have fun with Cloudinary! 🤟
+
 If you meet any issue, [report it](https://github.com/cloudinary/vue-cli-plugin-cloudinary/issues)
 
 ## 🚀 Usage
