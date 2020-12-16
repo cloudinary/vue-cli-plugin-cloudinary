@@ -2,7 +2,7 @@
 module.exports = (api, opts) => {
   api.extendPackage({
     dependencies: {
-        'cloudinary-vue': '^1.0.0'
+        'cloudinary-vue': 'latest'
     }
   });
 
